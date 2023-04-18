@@ -9,10 +9,9 @@ exports.main = async (context = {}, sendResponse) => {
     "type": "tile",
     "content": [
 	   {
-   
     "type": "image",
     "src": "https://www.report-one.fr/wp-content/uploads/2020/06/oci.png",
-    "alt": "A Welcome Sign sample image",
+    "alt": "OCI logo",
     "onClick": {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
@@ -123,8 +122,6 @@ exports.main = async (context = {}, sendResponse) => {
         }
       }
     ]
-  }
-	     ]
   };
 	
 			
