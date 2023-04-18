@@ -160,7 +160,7 @@ exports.main = async (context = {}, sendResponse) => {
       },
       {
         "type": "button",
-        "text": "Clique ici pour valider le devis",
+        "text": "Validez le devis",
         "onClick": {
           "type": "SERVERLESS_ACTION_HOOK",
           "serverlessFunction": "exampleFunction"
