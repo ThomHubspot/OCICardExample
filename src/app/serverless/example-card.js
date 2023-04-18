@@ -166,6 +166,10 @@ exports.main = async (context = {}, sendResponse) => {
           "serverlessFunction": "exampleFunction"
         }
       },
+	    {
+    "type": "divider",
+    "distance": "small"
+  },
       {
         "type": "heading",
         "text": "Devis validés"
