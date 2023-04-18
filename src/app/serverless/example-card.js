@@ -89,14 +89,14 @@ exports.main = async (context = {}, sendResponse) => {
         "name": "example_input",
         "inputType": "text",
         "label": "Signataire du contrat OCI",
-        "initialValue": "Nom de signataire OCI."
+        "initialValue": ""
       },
       {
         "type": "input",
         "name": "example_input",
         "inputType": "text",
         "label": "Signataire du contrat Client",
-        "initialValue": "Nom de signataire client."
+        "initialValue": ""
       },
       {
         "type": "button",
