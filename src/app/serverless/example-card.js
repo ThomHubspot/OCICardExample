@@ -183,7 +183,7 @@ exports.main = async (context = {}, sendResponse) => {
         "items": [
           {
             "label": "Titre:",
-            "value": "Réassortiment décembre 2022"
+            "value": "Devis décembre 2022"
           },
           {
             "label": "Date d'enregistrement:",
