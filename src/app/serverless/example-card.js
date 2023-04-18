@@ -89,14 +89,14 @@ exports.main = async (context = {}, sendResponse) => {
         "name": "example_input",
         "inputType": "text",
         "label": "Signataire du contrat OCI",
-        "initialValue": "This is the default value for this field."
+        "initialValue": "Nom de signataire OCI."
       },
       {
         "type": "input",
         "name": "example_input",
         "inputType": "text",
         "label": "Signataire du contrat Client",
-        "initialValue": "This is the default value for this field."
+        "initialValue": "Nom de signataire client."
       },
       {
         "type": "button",
