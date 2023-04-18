@@ -42,7 +42,7 @@ exports.main = async (context = {}, sendResponse) => {
         "items": [
           {
             "label": "Titre:",
-            "value": "Réassortiment janvier 2023"
+            "value": "Devis janvier 2023"
           },
           {
             "label": "Date d'enregistrement:",
@@ -53,7 +53,7 @@ exports.main = async (context = {}, sendResponse) => {
             "value": {
               "type": "text",
               "format": "markdown",
-              "text": "[Devis Numéro: 0123456789](https://app.hubspot.com/l/docs/doc/platform/create-custom-crm-cards-with-projects#components)"
+              "text": "[Devis Numéro: 0123456789](https://19651884.cdnp1.hubspotusercontent-na1.net/hubfs/19651884/quotes-folder-pdfs-portal-19651884/49825709/Location%20Utilitaires.pdf?Expires=1681890081&Signature=iYZH9zgsEaoFd5M9QFevqbHifuxGGiasYg-hGsACD8fAQs6uZkCLnzLQBLTIC8MIsIfhyxrRLzDpxruQKuDu1EcyFjIw5RvRAhv8hl8B2ZJ4WF8qadXrwxucpdsrLJHMC-2bqL6NzblJexW7By8sYZpmsahtX07YqBWpdeINsaFygGCtmcnOPq7opJXN3A80~xNOq5oGA4~mizreKRolzFWXFtRx~yIknJUsTrdlI22IFx2V5bJkPVf4hDJR8LVDV0T1lKG6X9KYoNtMsxSW0zz3eh4ltgCwiL9~0UN2k9CTODnAzipBeFUmSgDWxD1d527~2o0ftyjJTv0zt~J3bg__&Key-Pair-Id=APKAJDNICOKANPHVCSBQ)"
             }
           }
         ]
@@ -99,7 +99,7 @@ exports.main = async (context = {}, sendResponse) => {
             "value": {
               "type": "text",
               "format": "markdown",
-              "text": "[Devis Numéro: 0123456788](https://app.hubspot.com/l/docs/doc/platform/create-custom-crm-cards-with-projects#components)"
+              "text": "[Devis Numéro: 0123456788](https://19651884.cdnp1.hubspotusercontent-na1.net/hubfs/19651884/quotes-folder-pdfs-portal-19651884/49825709/Location%20Utilitaires.pdf?Expires=1681890081&Signature=iYZH9zgsEaoFd5M9QFevqbHifuxGGiasYg-hGsACD8fAQs6uZkCLnzLQBLTIC8MIsIfhyxrRLzDpxruQKuDu1EcyFjIw5RvRAhv8hl8B2ZJ4WF8qadXrwxucpdsrLJHMC-2bqL6NzblJexW7By8sYZpmsahtX07YqBWpdeINsaFygGCtmcnOPq7opJXN3A80~xNOq5oGA4~mizreKRolzFWXFtRx~yIknJUsTrdlI22IFx2V5bJkPVf4hDJR8LVDV0T1lKG6X9KYoNtMsxSW0zz3eh4ltgCwiL9~0UN2k9CTODnAzipBeFUmSgDWxD1d527~2o0ftyjJTv0zt~J3bg__&Key-Pair-Id=APKAJDNICOKANPHVCSBQ)"
             }
           },
           {
@@ -107,7 +107,7 @@ exports.main = async (context = {}, sendResponse) => {
             "value": {
               "type": "text",
               "format": "markdown",
-              "text": "[Facture Numéro: 0123456788](https://app.hubspot.com/l/docs/doc/platform/create-custom-crm-cards-with-projects#components)"
+              "text": "[Facture Numéro: 0123456788](https://19651884.cdnp1.hubspotusercontent-na1.net/hubfs/19651884/quotes-folder-pdfs-portal-19651884/49825709/Location%20Utilitaires.pdf?Expires=1681890081&Signature=iYZH9zgsEaoFd5M9QFevqbHifuxGGiasYg-hGsACD8fAQs6uZkCLnzLQBLTIC8MIsIfhyxrRLzDpxruQKuDu1EcyFjIw5RvRAhv8hl8B2ZJ4WF8qadXrwxucpdsrLJHMC-2bqL6NzblJexW7By8sYZpmsahtX07YqBWpdeINsaFygGCtmcnOPq7opJXN3A80~xNOq5oGA4~mizreKRolzFWXFtRx~yIknJUsTrdlI22IFx2V5bJkPVf4hDJR8LVDV0T1lKG6X9KYoNtMsxSW0zz3eh4ltgCwiL9~0UN2k9CTODnAzipBeFUmSgDWxD1d527~2o0ftyjJTv0zt~J3bg__&Key-Pair-Id=APKAJDNICOKANPHVCSBQ)"
             }
           }
         ]
