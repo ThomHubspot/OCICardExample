@@ -32,7 +32,7 @@ exports.main = async (context = {}, sendResponse) => {
         "name": "Titre de Devis",
         "inputType": "text",
         "label": "Titre de Devis",
-        "initialValue": "Saisissez le nom du devis."
+        "initialValue": ""
       },
       {
         "type": "form",
