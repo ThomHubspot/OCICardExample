@@ -29,7 +29,7 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
       {
         "type": "input",
-        "name": "example_input",
+        "name": "Titre de Devis",
         "inputType": "text",
         "label": "Titre de Devis",
         "initialValue": "Saisissez le nom du devis."
@@ -86,14 +86,14 @@ exports.main = async (context = {}, sendResponse) => {
       },
       {
         "type": "input",
-        "name": "example_input",
+        "name": "Signataire du contrat OCI",
         "inputType": "text",
         "label": "Signataire du contrat OCI",
         "initialValue": ""
       },
       {
         "type": "input",
-        "name": "example_input",
+        "name": "Signataire du contrat Client",
         "inputType": "text",
         "label": "Signataire du contrat Client",
         "initialValue": ""
