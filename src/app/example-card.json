@@ -1,7 +1,7 @@
 {
   "type": "crm-card",
   "data": {
-    "title": "CCI - Piéces justificatives",
+    "title": "OCI - gestion des devis Navison",
     "location": "crm.record.sidebar",
     "fetch": {
       "targetFunction": "crm-card",
