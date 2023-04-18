@@ -9,9 +9,7 @@ exports.main = async (context = {}, sendResponse) => {
     "type": "tile",
     "content": [
 	   {
-    "type": "tile",
-    "content": [
-      {
+   
     "type": "image",
     "src": "https://www.report-one.fr/wp-content/uploads/2020/06/oci.png",
     "alt": "A Welcome Sign sample image",
@@ -77,12 +75,7 @@ exports.main = async (context = {}, sendResponse) => {
           "type": "SERVERLESS_ACTION_HOOK",
           "serverlessFunction": "exampleFunction"
         }
-      }
-    ]
-  },
-  {
-    "type": "tile",
-    "content": [
+      },
       {
         "type": "heading",
         "text": "Devis validés"
