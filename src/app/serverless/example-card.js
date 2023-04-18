@@ -16,6 +16,97 @@ exports.main = async (context = {}, sendResponse) => {
       "type": "SERVERLESS_ACTION_HOOK",
       "serverlessFunction": "exampleFunction"
     }
+  },{
+    "type": "divider",
+    "distance": "small"
+  },
+  {
+    "type": "heading",
+    "text": "Créer un nouveau devis"
+  },
+  {
+    "type": "form",
+    "content": [
+      {
+        "type": "input",
+        "name": "example_input",
+        "inputType": "text",
+        "label": "Titre de Devis",
+        "initialValue": "Saisissez le nom du devis."
+      },
+      {
+        "type": "form",
+        "content": [
+          {
+            "type": "select",
+            "name": "select_input",
+            "label": "Choisissez un produit",
+            "placeholder": "Veuillez choisir",
+            "options": [
+              {
+                "value": 42,
+                "label": "Produit 1"
+              },
+              {
+                "value": true,
+                "label": "Produit 2"
+              },
+              {
+                "value": "a string",
+                "label": "Produit 3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "form",
+        "content": [
+          {
+            "type": "toggleGroup",
+            "toggleType": "radioButtonList",
+            "name": "radio_input",
+            "label": "Sélectionnez les modalités de paiement",
+            "options": [
+              {
+                "value": "42",
+                "label": "30 Jours"
+              },
+              {
+                "value": "cake",
+                "label": "60 Jours"
+              },
+              {
+                "value": "a string",
+                "label": "90 Jours"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "input",
+        "name": "example_input",
+        "inputType": "text",
+        "label": "Signataire du contrat OCI",
+        "initialValue": "This is the default value for this field."
+      },
+      {
+        "type": "input",
+        "name": "example_input",
+        "inputType": "text",
+        "label": "Signataire du contrat Client",
+        "initialValue": "This is the default value for this field."
+      },
+      {
+        "type": "button",
+        "text": "Générer le devis",
+        "onClick": {
+          "type": "SUBMIT",
+          "serverlessFunction": "exampleFunction"
+        }
+      }
+    ]
   },
       {
         "type": "divider",
